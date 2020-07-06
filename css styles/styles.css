@@ -1,3 +1,6 @@
 body {
-    background: gray;
+    background-image: url(../img/squi.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    
 }

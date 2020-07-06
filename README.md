@@ -1,2 +1,2 @@
 # asig1_vuejs
-App para ingresar datos de usuarios
+App para ingresar datos de Pokemons
