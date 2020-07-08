@@ -4,20 +4,24 @@ const vm = new Vue({
     el: '#app',
     data: {
         newPoke:'',
+        newTrainer:'',
+        newAge:0,
         pokeData: [
-            {pokeName:'', trName:'', age:0}
+            
         ],
     
     },
     methods: {
-        addPoke () {
-           
+        addPokeData () {
+            const pokeUser = {
+                pokemon: this.newPoke,
+                trainer: this.newTrainer,
+                age: this.newAge
+            };
+            this.pokeData.push(pokeUser);
         },
-        addTrainer () {
-            console.log('diste click2');
-        },
-        addAge () {
-            console.log('diste click3');
+        removePokeData () {
+
         }
     }
     
